@@ -1,20 +1,15 @@
-Making Tunes to play with a piezo on an arduino board, so you don't have to.
+Making Tunes to play with a piezo on an arduino board because... I don't know why.
 
-To use Johnny Five, you need to have node installed and run `npm install`
+To use with Johnny Five:      
+1. Open up your Arduino IDE   
+2. Plug in your Arduino or Arduino compatible microcontroller via USB   
+3. Open the Arduino IDE, select: File > Examples > Firmata > StandardFirmata   
+4. Click the “Upload” button.   
+5. Install Node.js if you haven’t already   
+6. run `npm install` in the folder where you cloned this repo   
+7. run `node songname.js` to play the j5 song   
 
-Sailor moon theme:
-````
-int melody[] = {
-  NOTE_C4, NOTE_F4, NOTE_GS4, NOTE_C5, NOTE_C5, NOTE_AS4, NOTE_AS4, NOTE_GS4, NOTE_G4, NOTE_AS4,
-  NOTE_C4, NOTE_E4, NOTE_G4, NOTE_AS4, NOTE_AS4, NOTE_GS4, NOTE_GS4, NOTE_G4, NOTE_F4, NOTE_GS4,
-  NOTE_C4, NOTE_F4,NOTE_GS4, NOTE_C5, NOTE_C5, NOTE_AS4, NOTE_AS4, NOTE_C5, NOTE_DS5, NOTE_CS5,
-  NOTE_CS5, NOTE_C5, NOTE_AS4, NOTE_C5, NOTE_AS4, NOTE_GS4, NOTE_G4, NOTE_F4};
-
-// note durations: 4 = quarter note, 8 = eighth note, etc.:
-int noteDurations[] = {
-                        4, 4, 4, 3, 4, 3, 4, 3, 3, 2,
-                        4, 4, 4, 3, 4, 3, 4, 3, 3, 2,
-                        4, 4, 4, 3, 4, 3, 4, 3, 3, 2,
-                        4, 4, 3, 3, 3, 3, 4, 3
-                      };
-````
+To use with Ardruino:   
+1. Open your Arduino IDE    
+2. File > Open  & select the .ino file of the song you want to play    
+3. Click the "Upload" button    
