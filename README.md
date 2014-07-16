@@ -13,3 +13,5 @@ To use with Ardruino:
 1. Open your Arduino IDE    
 2. File > Open  & select the .ino file of the song you want to play    
 3. Click the "Upload" button    
+
+![piezo diagram](http://media.tumblr.com/70cb4dc24cc2989440b2cdd6ed8eeb88/tumblr_inline_n8tlge5Smu1qdp3l0.png)
