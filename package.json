@@ -1,0 +1,23 @@
+{
+  "name": "tunes",
+  "version": "0.0.0",
+  "description": "Arduino music",
+  "dependencies": {
+    "johnny-five": "~0.8.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deathbearbrown/arduino-tunes.git"
+  },
+  "keywords": [
+    "arduino",
+    "piezo"
+  ],
+  "author": "Sue Lockwood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deathbearbrown/arduino-tunes/issues"
+  },
+  "homepage": "https://github.com/deathbearbrown/arduino-tunes"
+}
