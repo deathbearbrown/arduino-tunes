@@ -17,6 +17,9 @@ This example code is in the public domain.
  */
  #include "pitches.h"
 
+ 
+#define PIN 3
+
 // notes in the melody:
 int melody[] = {
   NOTE_C4, NOTE_F4, NOTE_GS4, NOTE_C5, NOTE_C5, NOTE_AS4, NOTE_AS4, NOTE_GS4, NOTE_G4, NOTE_AS4,
@@ -39,14 +42,14 @@ void setup() {
     // divided by the note type.
     //e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
     int noteDuration = 1000/noteDurations[thisNote];
-    tone(8, melody[thisNote],noteDuration);
+    tone(3, melody[thisNote],noteDuration);
 
     // to distinguish the notes, set a minimum time between them.
     // the note's duration + 30% seems to work well:
     int pauseBetweenNotes = noteDuration * 1.30;
     delay(pauseBetweenNotes);
     // stop the tone playing:
-    noTone(8);
+    noTone(3);
   }
 }
 

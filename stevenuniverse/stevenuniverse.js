@@ -3,7 +3,10 @@ board = new five.Board();
 
 board.on("ready", function() {
 
-  piezo = new five.Piezo(8);
+  piezo = new five.Piezo({
+    controller: "I2C_BACKPACK",
+    pin: 3
+  });
 
   // Injects the piezo into the repl
   board.repl.inject({
